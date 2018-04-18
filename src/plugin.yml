@@ -1,0 +1,6 @@
+name: DeliveryMan
+version: 1.0
+main: me.simonm34.deliveryman.Main
+commands:
+  deliveryman:
+    aliases: [dm]

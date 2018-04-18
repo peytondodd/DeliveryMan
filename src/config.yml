@@ -1,0 +1,18 @@
+inventory:
+  name: '&cDelivery Man'
+  rows: 3
+
+rewards:
+  daily reward:
+    delay: 86400 #in seconds
+    run commands:
+      - 'give %player% diamond'
+    item:
+      slot: 1
+      material: diamond_sword
+      amount: 1
+      name: '&cDaily Reward!'
+      lore:
+        - '&7Right-Click to receive reward!'
+
+delays: {}
